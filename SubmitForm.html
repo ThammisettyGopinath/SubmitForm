@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SubmitForm</title>
+    <style>
+        .user {
+            border: 4px solid red;
+            background-color: antiquewhite;
+            height: 500px;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 200px;
+        }
+    </style>
+    <div>
+
+    </div>
+</head>
+
+<body>
+    <div class="user">
+        <form>
+            <h1 style="color: rgb(253, 5, 178);">User Form</h1>
+            <label for="Name"></label>
+            <input type="text" name="Name" placeholder="Enter name" />
+            <br />
+            <br />
+            <label for="Email"></label>
+            <input type="email" name="Email" placeholder="Enter mail" />
+            <br />
+            <br />
+            <label for="MobileNumber"></label>
+            <input type="number" name="MobileNumber" placeholder="Mobile number" />
+            <br />
+            <br />
+            <label for="Description"></label>
+            <textarea name="Description" placeholder="Description"></textarea>
+            <br />
+            <br />
+            <p style="color: coral;"><strong>Gender</strong></p>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="Male" />
+            <label for="gender">Female</label>
+            <input type="radio" name="gender" value="Female" />
+            <label for="gender">Custom</label>
+            <input type="radio" name="gender" value="Custom" />
+            <br />
+            <br />
+            <p style="color: coral;"><strong>Favourite Colour</strong></p>
+            <label for="Fav">Green</label>
+            <input type="checkbox" name="Fav" value="Green"" />
+            <label for=" Fav">Blue</label>
+            <input type="checkbox" name="Fav" value="Blue" />
+            <label for="Fav">Orange</label>
+            <input type="checkbox" name="Fav" value="Orange" />
+            <br />
+            <br />
+            <button type="reset">Clear</button>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
